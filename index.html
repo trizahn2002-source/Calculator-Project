@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <script src="style.css"></script>
     <script src="script.js"></script>
 </head>
 <body> 
@@ -13,50 +12,5 @@
     <p class="subtitle">Calculator + History Tracker</p>
   </header>
 
-  <main>
-    <section class="calculator">
-      <div class="display">
-        <div class="expression" id="expression"></div>
-        <div class="result" id="result">0</div>
-      </div>
-      <div class="buttons">
-        <button class="btn btn-clear" onclick="clearAll()">AC</button>
-        <button class="btn btn-clear" onclick="deleteLast()">⌫</button>
-        <button class="btn btn-op"   onclick="inputOp('%')">%</button>
-        <button class="btn btn-op"   onclick="inputOp('/')">÷</button>
 
-        <button class="btn" onclick="inputNum('7')">7</button>
-        <button class="btn" onclick="inputNum('8')">8</button>
-        <button class="btn" onclick="inputNum('9')">9</button>
-        <button class="btn btn-op"  onclick="inputOp('*')">×</button>
-
-        <button class="btn" onclick="inputNum('4')">4</button>
-        <button class="btn" onclick="inputNum('5')">5</button>
-        <button class="btn" onclick="inputNum('6')">6</button>
-        <button class="btn btn-op"  onclick="inputOp('-')">−</button>
-
-        <button class="btn" onclick="inputNum('1')">1</button>
-        <button class="btn" onclick="inputNum('2')">2</button>
-        <button class="btn" onclick="inputNum('3')">3</button>
-        <button class="btn btn-op"  onclick="inputOp('+')">+</button>
-
-        <button class="btn btn-zero"   onclick="inputNum('0')">0</button>
-        <button class="btn"            onclick="inputDot()">.</button>
-        <button class="btn btn-equals" onclick="calculate()">=</button>
-      </div>
-    </section>
-
-    <section class="history">
-      <div class="history-header">
-        <h2>History</h2>
-        <button class="btn-clear-hist" onclick="clearHistory()">Clear All</button>
-      </div>
-      <div class="history-list" id="historyList">
-        <p class="empty-msg">No calculations yet.<br/>Start typing! 🧮</p>
-      </div>
-    </section>
-  </main>
-
-</body>
-</html>
     
